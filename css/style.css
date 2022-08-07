@@ -1,0 +1,98 @@
+:root {
+  /* 
+    Poppins Main Font
+    Nunito Title Font
+  */
+  --primary: #FDC886;
+  --secondary: #5A4FCF;
+  --text-black: #232631;
+  --text-grey: #656565;
+  --star-yellow: #FFB800;
+  --white: #FFFFFF;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #FAFAFA;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1440px !important;
+}
+
+header {
+  margin-top: 60px;
+  height: 56px;
+}
+
+/* Left */
+.nav-link {
+  font-weight: 500;
+  color: var(--text-black);
+  position: relative;
+  /* margin-right: 30px !important; */
+}
+
+.home-link::after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 48px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: var(--secondary);
+}
+
+.category-dropdown {
+  margin-left: 8px;
+}
+
+/* Center */
+.logo-name {
+  font-family: 'Nunito', sans-serif;
+  color: var(--text-black);
+  font-weight: 800;
+  font-size: 28px;
+  margin-left: 8px;
+}
+
+/* Right */
+.input-container {
+  display: flex;
+  height: 56px;
+  padding: 16px 28px;
+  background-color: var(--white);
+  margin-right: 20px;
+  border-radius: 12px;
+}
+
+.searchbox {
+  color: var(--text-grey);
+  background-color: var(--white);
+  border: none;
+  font-weight: 500;
+  width: 230px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.login-button-container {
+  width: 104px;
+  height: 56px;
+  padding: 16px 28px;
+  border-radius: 12px;
+  background-color: rgba(90,79,207,0.1);
+}
+
+.btn-login {
+  border: none;
+  color: var(--secondary);
+  background-color: transparent;
+  font-weight: 600;
+}
