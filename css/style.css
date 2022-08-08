@@ -289,7 +289,105 @@ header {
 /* Popular Restaurant */
 .popular-container {
   height: 475px;
-  border: 1px solid green;
+  position: relative;
+}
+
+.popular-info {
+  width: 370px;
+  height: 300px;
+  margin-right: 85px;
+}
+
+.popular-data {
+  margin-bottom: 56px;
+  height: 188px;
+}
+
+.popular-title-wrapper {
+  margin-bottom: 20px;
+}
+
+.popular-rank {
+  font-weight: 600;
+  color: var(--secondary)
+}
+
+.popular-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.popular-description {
+  width: 330px;
+  color: var(--text-grey);
+}
+
+.popular-button-container {
+  width: 238px;
+  height: 56px;
+  padding: 16px 28px;
+  border-radius: 12px;
+  background-color: var(--primary);
+}
+
+.popular-button {
+  border: none;
+  color: var(--text-black);
+  background-color: transparent;
+  font-weight: 600;
+}
+
+/* .popular-image {
+
+} */
+
+.popular-large-image {
+  width: 400px;
+  height: 475px;
+  position: relative;
+}
+
+.popular-small-image {
+  width: 214px;
+  height: 475px;
+  margin-left: 20px;
+}
+
+.popular-img {
+  border-radius: 24px;
+}
+
+.popular-pricelist {
+  width: 352px;
+  height: 131px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 24px;
+  border-radius: 24px;
+  background-color: var(--white);
+}
+
+.popular-pricelist-info {
+  margin: 24px 8px 24px 24px;
+  width: 260px;
+  height: 83px;
+}
+
+.popular-restaurant-name {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--text-black);
+
+}
+
+.popular-pricelist-icon {
+  width: 36px;
+  height: 36px;
+  background-color: var(--primary);
+  border-radius: 12px;
+  margin-right: 24px;
 }
 
 /* End Popular Restaurant */
