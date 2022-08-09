@@ -90,7 +90,7 @@ header {
   height: 56px;
   padding: 16px 28px;
   border-radius: 12px;
-  background-color: rgba(90,79,207,0.1);
+  background-color: rgba(90, 79, 207, 0.1);
 }
 
 .btn-login {
@@ -99,6 +99,7 @@ header {
   background-color: transparent;
   font-weight: 600;
 }
+
 /* End Header */
 
 /* Ads */
@@ -196,6 +197,7 @@ header {
   border-radius: 24px;
   margin-right: 40px;
 }
+
 /* End Ads */
 
 /* Why Us */
@@ -239,7 +241,7 @@ header {
 .benefits-icon {
   width: 80px;
   height: 80px;
-  background-color: rgba(253,200,134,0.5);
+  background-color: rgba(253, 200, 134, 0.5);
   border-radius: 54px;
 }
 
@@ -396,7 +398,213 @@ header {
 .location-container {
   height: 631px;
   margin: 120px 0;
-  border: 1px solid aqua;
+}
+
+.location-title-wrapper {
+  width: 295px;
+  height: 72px;
+}
+
+.location-rank {
+  width: 223px;
+  height: 24px;
+  color: var(--secondary);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.location-title-container {
+  padding: 0 48px;
+  margin-bottom: 34px;
+}
+
+.location-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.location-restaurant-wrapper {
+  width: 252px;
+  height: 64px;
+}
+
+.location-restaurant {
+  padding: 20px 24px;
+}
+
+.location-restaurant-text {
+  font-weight: 500;
+}
+
+.restaurant-container {
+  margin-bottom: 56px;
+}
+
+.restaurant {
+  width: 427px;
+  height: 415px;
+  position: relative;
+  margin: 0 10px;
+}
+
+.restaurant-price {
+  width: 379px;
+  height: 134px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-bottom: 33px;
+  padding: 24px;
+  border-radius: 24px;
+  transform: translate(-50%, 0);
+  background-color: var(--white);
+}
+
+.restaurant-price-info {
+  width: 260px;
+  height: 86px;
+  margin-right: 35px;
+}
+
+.restaurant-price-icon {
+  width: 36px;
+  height: 36px;
+  background-color: var(--primary);
+  border-radius: 12px;
+  margin-right: 24px;
+}
+
+.restaurant-arrow-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--text-black);
+}
+
+.restaurant-pricelist {
+  color: var(--text-grey);
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.restaurant-img {
+  border-radius: 24px;
+}
+
+.location-restaurant-container {
+  width: 238px;
+  height: 56px;
+  padding: 16px 28px;
+  border-radius: 12px;
+  background-color: var(--primary);
+}
+
+.location-restaurant-button {
+  border: none;
+  color: var(--text-black);
+  background-color: transparent;
+  font-weight: 600;
 }
 
 /* End Based on Location Restaurant */
+
+/* Expert Chef */
+.expert-chef-container {
+  height: 855px;
+  border: 1px solid blue;
+  margin-bottom: 120px;
+}
+
+.chef-image-container {
+  width: 660px;
+  height: 848px;
+  margin-right: 64px;
+  border: 1px solid yellow;
+  position: relative;
+}
+
+.chef-image {
+  width: 565px;
+}
+
+.chef-img {
+  border-radius: 24px;
+}
+
+.chef-experience {
+  width: 179px;
+  height: 203px;
+  position: absolute;
+  margin-top: 40px;
+  right: 0;
+  background-color: var(--white);
+  border-radius: 24px;
+}
+
+.chef-workplace {
+  width: 330px;
+  height: 180px;
+  position: absolute;
+  margin-bottom: 40px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  border-radius: 24px;
+}
+
+.chef-info-container {
+  width: 596px;
+  height: 855px;
+  border: 1px solid green;
+}
+
+.logo-experience {
+  width: 50px;
+  height: 80px;
+  line-height: 80px;
+  margin: 30px 49.5px 12px;
+  /* margin-bottom: 12px; */
+}
+
+.experience-text {
+  color: var(--text-grey);
+}
+
+.experience-year {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--text-black);
+}
+
+.workplace-image {
+  width: 94px;
+  height: 132px;
+  margin: 24px 12px 24px 24px;
+}
+
+.workplace-img {
+  border-radius: 12px;
+}
+
+.workplace-info {
+  width: 174px;
+  height: 103px;
+}
+
+.workplace-title {
+  color: var(--text-grey);
+}
+
+.workplace-place {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-black);
+  margin-bottom: 24px;
+}
+
+.workplace-details {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* End Expert Chef */
