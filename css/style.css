@@ -133,6 +133,7 @@ header {
 .current-rating {
   font-weight: 600;
   color: var(--star-yellow);
+  border: none;
   margin: 0 4px 0 0;
   padding: 0;
 }
@@ -511,7 +512,6 @@ header {
 /* Expert Chef */
 .expert-chef-container {
   height: 855px;
-  border: 1px solid blue;
   margin-bottom: 120px;
 }
 
@@ -519,7 +519,6 @@ header {
   width: 660px;
   height: 848px;
   margin-right: 64px;
-  border: 1px solid yellow;
   position: relative;
 }
 
@@ -550,12 +549,6 @@ header {
   left: 0;
   background-color: var(--white);
   border-radius: 24px;
-}
-
-.chef-info-container {
-  width: 596px;
-  height: 855px;
-  border: 1px solid green;
 }
 
 .logo-experience {
@@ -606,5 +599,81 @@ header {
   color: var(--primary);
   font-weight: 600;
 }
+
+.chef-info-container {
+  width: 596px;
+  height: 855px;
+}
+
+.chef-info-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--secondary);
+}
+
+.chef-info-subtitle {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--text-black);
+  margin-bottom: 32px;
+}
+
+.chef-info-block {
+  width: 596px;
+  height: 141px;
+  margin-bottom: 20px;
+}
+
+.chef-info-block-active {
+  background-color: var(--white);
+  width: 596px;
+  height: 141px;
+  margin-bottom: 20px;
+  border-radius: 24px;
+}
+
+.chef-info {
+  margin-left: 24px;
+}
+
+.chef-info-food-type {
+  color: var(--text-grey);
+  font-weight: 500;
+}
+
+.chef-info-name {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-black);
+}
+
+.chef-info-place {
+  color: var(--text-grey);
+}
+
+.chef-details {
+  font-weight: 500;
+  color: var(--primary);
+  margin-right: 24px;
+}
+
+.chef-button-container {
+  /* width: 315p nx; */
+  width: 186px;
+  height: 56px;
+  padding: 16px 28px;
+  border-radius: 12px;
+  background-color: var(--primary);
+  /* margin-bottom: 12px; */
+  margin-top: 62px;
+}
+
+.chef-button {
+  border: none;
+  color: var(--text-black);
+  background-color: transparent;
+  font-weight: 600;
+}
+
 
 /* End Expert Chef */
